@@ -1,6 +1,6 @@
 # HR Data Analysis 
-## SharePoint O-Data Pipeline to Power BI
-## By: Luke Sullivan 
+#### SharePoint O-Data Pipeline to Power BI
+#### By: Luke Sullivan 
 
 ## How to Use
 
