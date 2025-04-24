@@ -1,4 +1,8 @@
-# OData-and-PowerBI
+# SharePoint O-Data Pipeline to Power BI Analysis
+
+## How to Use
+
+This repository is a data pipeline and analysis project. It is meant to demonstrate the process I took to understanding SharePoint, the O-Data pipeline, and implementing it into Power BI.
 
 ## I. SharePoint OData
 
@@ -19,7 +23,7 @@ And also saved the name of the list I imported from the HR analytics:
 
 ```"HR Analytics"```
 
-Using this information, I will now construct the OData Endpoint URL(1):
+Using this information, I will now construct the OData Endpoint URL[1]:
 
 ```https://https://theeluke.sharepoint.com/sites/test/_api/web/lists/getbytitle('HR Analytics')/items```
 
@@ -59,13 +63,13 @@ DIVIDE(
 ```
 
 #### Page 2.
-This page is a deep dive into the attrition statistics in the company. This page provided various info about attrition according to different columns in the dataset. This page also contains drop down menus, to search between different filters for specific data.
+This page delves deeper into employee attrition, analyzing turnover rates across different departments and specific position titles. It visualizes how attrition relates to factors such as salary brackets and the total number of years employees have been with the company. Interactive filters allow for exploring attrition patterns based on age range, marital status, distance from home, and job level.
 
 #### Page 3.
-This page is a general overview into the Workforce Demographics.
+This page provides an overview of the company's workforce composition. It includes charts showing the distribution of employees by their field of education and age range. It also shows the gender breakdown within each department. A detailed table lists individual employee data including age, gender, department, position, and years at the company.
 
 ### Page 4.
-This page is an analysis on the monthly income, and understanding how it distributes within the dataset.
+This page focuses on analyzing employee compensation. It presents the distribution of monthly income across the workforce, including a breakdown by specific position titles and comparisons between genders within those roles. It also visualizes the number of employees within defined monthly income brackets.
 - Learned how to download new visualizations and apply columns and style
 
 ## III. Wrap up
