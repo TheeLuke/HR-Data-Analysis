@@ -66,9 +66,10 @@ This page is a general overview into the Workforce Demographics.
 
 ### Page 4.
 This page is an analysis on the monthly income, and understanding how it distributes within the dataset.
+- Learned how to download new visualizations and apply columns and style
 
-
-- had to download and import new visualization
+## III. Wrap up
+This was a data analysis project connecting SharePoint O-data to Power BI through a data feed pipeline. I imported an HR analytics database to build out a dashboard and analysis in Power BI. Through this process, I learned hands on experience using Power BI and how to connect and use SharePoint O-Data feed.
 
 
 ### References
