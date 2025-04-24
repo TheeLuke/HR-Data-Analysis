@@ -2,7 +2,7 @@
 #### SharePoint O-Data Pipeline to Power BI
 #### By: Luke Sullivan 
 
-## How to Use
+### How to Use
 
 This repository is a data pipeline and analysis project. It is meant to demonstrate the process I took to understanding SharePoint, the O-Data pipeline, and implementing it into Power BI.
 
@@ -70,7 +70,7 @@ This page delves deeper into employee attrition, analyzing turnover rates across
 #### Page 3.
 This page provides an overview of the company's workforce composition. It includes charts showing the distribution of employees by their field of education and age range. It also shows the gender breakdown within each department. A detailed table lists individual employee data including age, gender, department, position, and years at the company.
 
-### Page 4.
+#### Page 4.
 This page focuses on analyzing employee compensation. It presents the distribution of monthly income across the workforce, including a breakdown by specific position titles and comparisons between genders within those roles. It also visualizes the number of employees within defined monthly income brackets.
 - Learned how to download new visualizations and apply columns and style
 
