@@ -36,8 +36,39 @@ The process I took:
 
 ### Step 2: Transform Data
 
-The first transformation query I ran was using PowerBI. I updated the column headers to represent their respectable title, instead of for example, 'field_1'.
-The next query, consisted of dropping columns 27-36, as I was not focused on querying this type of data in the dataset.
+Multiple transformations were made to refine the dataset. The key transformations include: 
+- removing duplicates based on the employee's ID
+- Removing columns that were not neccessary for analysis
+- Renamed column headers to appropriate titles
+- Fixed number columns from presenting as type 'text' to 'whole number'.
+
+### Step 3: Building out the pages
+
+#### Page 1.
+This page is an HR Dashboard that overviews general information into the HR dataset. It contains information about employee attrition, the number of employees based on department, and other information regarding employees at the company. DAX Measure was required to use to accurately represent the Attrition Rate through Power BI.
+
+``` 
+Attrition Rate = 
+DIVIDE(
+    CALCULATE(
+        DISTINCTCOUNT(HR_Analytics[EmpID]),
+        HR_Analytics[Attrition] = "TRUE"
+    ),
+    DISTINCTCOUNT(HR_Analytics[EmpID])
+)
+```
+
+#### Page 2.
+This page is a deep dive into the attrition statistics in the company. This page provided various info about attrition according to different columns in the dataset. This page also contains drop down menus, to search between different filters for specific data.
+
+#### Page 3.
+This page is a general overview into the Workforce Demographics.
+
+### Page 4.
+This page is an analysis on the monthly income, and understanding how it distributes within the dataset.
+
+
+- had to download and import new visualization
 
 
 ### References
