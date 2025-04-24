@@ -21,13 +21,23 @@ And also saved the name of the list I imported from the HR analytics:
 
 Using this information, I will now construct the OData Endpoint URL(1):
 
-```https://https://theeluke.sharepoint.com/sites/test/_api/web/lists/getbytitle('{HR Analytics}')/items```
+```https://https://theeluke.sharepoint.com/sites/test/_api/web/lists/getbytitle('HR Analytics')/items```
 
 ## II. Power BI
 
+### Step 1: Setting up OData feed
 
+To be able to retrieve the data from the SharePoint site into Power BI, I had to setup the OData feed using the endpoint URL I created.
+The process I took:
+- Selected "Get data from external sources"
+- Typed and selected "OData feed"
+- Using the basic URL selection, I entered the OData Endpoint URL that was made in Part 1, Step 2 and confirmed the URL.
+- Next, I selected that I was using an organization account, and signed in confirming the OData feed pipeline.
 
+### Step 2: Transform Data
 
+The first transformation query I ran was using PowerBI. I updated the column headers to represent their respectable title, instead of for example, 'field_1'.
+The next query, consisted of dropping columns 27-36, as I was not focused on querying this type of data in the dataset.
 
 
 ### References
