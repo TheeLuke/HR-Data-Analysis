@@ -27,7 +27,7 @@ And also saved the name of the list I imported from the HR analytics:
 
 Using this information, I will now construct the OData Endpoint URL[1]:
 
-```https://https://theeluke.sharepoint.com/sites/test/_api/web/lists/getbytitle('HR Analytics')/items```
+```https://theeluke.sharepoint.com/sites/test/_api/web/lists/getbytitle('HR Analytics')/items```
 
 ## II. Power BI
 
