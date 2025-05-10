@@ -19,7 +19,7 @@ With this information, I created a list on my Sharepoint site and imported the C
 The next step is to setup the Sharepoint OData endpoint URL so that it can connect to PowerBI for visualizations. 
 To start, I took note of the sharepoint site I was working on:
 
-```https://theeluke.sharepoint.com/sites/test```
+```https://luke.sharepoint.com/sites/test```
 
 And also saved the name of the list I imported from the HR analytics:
 
@@ -27,7 +27,7 @@ And also saved the name of the list I imported from the HR analytics:
 
 Using this information, I will now construct the OData Endpoint URL[1]:
 
-```https://theeluke.sharepoint.com/sites/test/_api/web/lists/getbytitle('HR Analytics')/items```
+```https://luke.sharepoint.com/sites/test/_api/web/lists/getbytitle('HR Analytics')/items```
 
 ## II. Power BI
 
